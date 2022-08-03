@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: rgb(236, 237, 238);
+  font-family: Tahoma;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 64%;
+  margin-bottom: -15px;
+}
+.slogan {
+  font-size: 26px;
+  padding-left: 31px;
+  line-height: 30px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding-top: 100px;
+}
+.box1 {
+  width: 41%;
+  padding-top: 26px;
+}
+.box2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.box3 {
+  position: absolute;
+  top: 109%;
+  font-size: 15px;
+}
+.form-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 324px;
+  background-color: white;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.size {
+  height: 45px;
+  width: 417px;
+  padding-left: 9px;
+  font-size: 17px;
+}
+.email,
+.pass,
+.forget-password {
+  text-align: center;
+  border-bottom: 1px solid rgb(228, 225, 225);
+  height: 41px;
+  width: 417px;
+  color: #1877f2;
+}
+a.forget-password {
+  font-size: 14px;
+}
+.new-account {
+  height: 41px;
+  width: 183px;
+  background-color: rgb(4, 192, 4);
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.border {
+  border-radius: 5px;
+}
+.click-login {
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  font-style: 14px;
+}
+.reg-title {
+  font-size: 32px;
+}
+.reg-slogan {
+  font-size: 15px;
+}
+.form-name {
+  display: flex;
+  gap: 10px;
+}
+.form-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.normal {
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.normal2 {
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  width: 195px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.form-select {
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  width: 125px;
+  height: 36px;
+  font-size: 15px;
+  padding: 0 8px;
+}
+.day {
+  display: flex;
+  justify-content: space-between;
+}
+.formselect {
+  width: 400px;
+}

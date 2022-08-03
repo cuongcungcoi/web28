@@ -1,0 +1,295 @@
+ <section class="section section-news">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <a href="https://tinanime.com/">
+                <h2 class="section-header">Tin anime</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="section-content">
+                <div class="list-news row">
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-3">
+                    <a
+                      href="https://tinanime.com/lisa-blackpink-hoa-than-thanh-anya-trong-spy-x-family"
+                    >
+                      <div class="news-item row">
+                        <div class="col-5">
+                          <div class="news-item-thumbnail">
+                            <img
+                              src="https://s199.imacdn.com/ta/2022/07/21/22f986031e6ef0f9_504ed50f4b7206a3_4520316583366483185710.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="news-item-description">
+                            Lisa (BLACKPINK) hóa thân thành Anya trong Spy x
+                            Family!?
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>

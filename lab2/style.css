@@ -1,0 +1,38 @@
+.text-blue {
+  color: rgb(27, 27, 105);
+}
+.link {
+    text-align: center;
+}
+}
+.text-10 {
+  font: size 15px;
+}
+.h1-30 {
+  font-size: 38px;
+}
+.h1-brown {
+  color: rgb(99, 45, 6);
+}
+.text-upper {
+  text-transform: capitalize;
+}
+.h2-size {
+  font-size: 25px;
+}
+.h2-color {
+  color: rgb(94, 10, 228);
+}
+[href] {
+  text-decoration: none;
+  color: rgb(27, 27, 105);
+}
+.blockquote-red {
+  color: rgb(73, 17, 73);
+}
+a:visited {
+  color: green;
+}
+ul.b {
+  list-style-type: square;
+}

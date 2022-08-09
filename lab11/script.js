@@ -183,4 +183,3 @@ function solveEquation(a, b, c) {
     }
   } else return Infinity;
 }
-console.log(solveEquation(1, -5, 6));

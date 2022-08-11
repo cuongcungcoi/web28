@@ -148,11 +148,10 @@ function calcGrade(point) {
 function calcTaxiFee(km) {
   if (km <= 30) {
     return 10_000 + km * 11_000 + "đ";
-  } else if (km >= 30) {
+  } else if (km > 30) {
     return 10_000 + 30 * 11_000 + (km - 30) * 9_500 + "đ";
   } else return false;
 }
-console.log(calcTaxiFee(32));
 
 /**
  * Tìm nghiệm phương trình bậc 2 ax^2 + bx + c = 0

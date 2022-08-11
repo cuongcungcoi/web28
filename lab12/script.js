@@ -34,9 +34,6 @@ function sumOfPrimes(n) {
   if (n == 2) {
     return null;
   }
-  if (n == 3) {
-    return 2;
-  }
   if (n == 1) {
     return false;
   }
@@ -47,6 +44,7 @@ function sumOfPrimes(n) {
   }
   return S;
 }
+console.log(sumOfPrimes(3));
 
 /**
  * Tìm số Fibonacci thứ n
@@ -126,11 +124,3 @@ function isStrong(n) {
     return true;
   } else return false;
 }
-function Strong(n) {
-  for (let k = 1; k <= n; k++) {
-    if (isStrong(k)) {
-      console.log(k);
-    }
-  }
-}
-Strong(1_000_000_000);

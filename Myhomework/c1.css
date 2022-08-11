@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-image: url(https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-nav-bg-slim.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+ul.items {
+  display: flex;
+}
+.item {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.item-header {
+  font-size: 16px;
+  color: #000;
+  line-height: 20px;
+}

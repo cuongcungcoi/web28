@@ -44,7 +44,6 @@ function sumOfPrimes(n) {
   }
   return S;
 }
-console.log(sumOfPrimes(3));
 
 /**
  * Tìm số Fibonacci thứ n

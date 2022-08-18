@@ -157,4 +157,3 @@ function shuffle(arr) {
   let C = arr.sort(() => Math.random() - 0.5);
   return C;
 }
-console.log(shuffle(arr1));

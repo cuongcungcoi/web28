@@ -44,7 +44,6 @@ function sumOfPrimes(n) {
   }
   return S;
 }
-console.log(sumOfPrimes(3));
 
 /**
  * Tìm số Fibonacci thứ n
@@ -126,9 +125,42 @@ function isStrong(n) {
 }
 function triangle(n) {
   for (let i = 1; i <= n; i++) {
+    let string = "";
     for (let j = 1; j <= i; j++) {
-      console.log([i]);
+      string += i;
     }
+    console.log(string);
   }
 }
-triangle(3);
+triangle(9);
+
+isEmtry = function (obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == "function") {
+      return false;
+    }
+  }
+  return true;
+};
+obj = {
+  name: "Cuong",
+  age: 27,
+  job: "Police",
+  skill: function () {
+    console.log(`Hi my name is ${this.name}`);
+  },
+};
+console.log(isEmtry(obj));
+
+let salaries = {};
+
+let total = function () {
+  let S = 0;
+  for (let key in salaries) {
+    if (salaries[key] != 0) {
+      S += salaries[key];
+    }
+  }
+  return S;
+};
+console.log(total());

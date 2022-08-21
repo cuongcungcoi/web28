@@ -18,9 +18,6 @@ function capitalize(str) {
   str1[0] = str1[0].toUpperCase();
   return str1.join("");
 }
-let str = "                   Viet naM vo dOi";
-console.log(capitalize(str));
-
 /**
  * Chuyển đổi chuỗi thành dạng title (viết hoa chữ cái đầu của mỗi từ)
  *
@@ -40,8 +37,6 @@ function title(str2) {
   }
   return str3.join(" ");
 }
-console.log(title("          javaScript iS fUn"));
-
 /**
  * Đếm số ký tự nguyên âm xuất hiện trong chuỗi
  *
@@ -62,7 +57,6 @@ function countVowel(str) {
   }
   return i;
 }
-
 /**
  * Tạo một mã màu ngẫu nhiên (hệ màu HEX)
  *
@@ -72,8 +66,6 @@ function randomColor() {
   b = Math.floor(Math.random() * 16 ** 6);
   return "#" + b.toString(16);
 }
-console.log(randomColor());
-
 /**
  * Đảo ngược thứ tự các từ trong chuỗi
  *
@@ -89,8 +81,6 @@ function reverseWords(str) {
   str = str.join(" ");
   return str;
 }
-console.log(reverseWords("The fox is comming for the chicken"));
-
 /**
  * Tạo chuỗi URL (viết thường, các từ được nối với nhau bằng dấu -)
  *
@@ -108,8 +98,3 @@ function parameterize(str) {
 
   return str.join("-");
 }
-console.log(parameterize("     Viet Nam Vo Doi"));
-
-let n = 15;
-n = n.toString(16);
-console.log(n);

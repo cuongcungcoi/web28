@@ -152,7 +152,11 @@ obj = {
 };
 console.log(isEmtry(obj));
 
-let salaries = {};
+let salaries = {
+  Join: 100,
+  Ann: 200,
+  Peter: 130,
+};
 
 let total = function () {
   let S = 0;

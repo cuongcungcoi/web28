@@ -182,3 +182,14 @@ function solveEquation(a, b, c) {
     }
   } else return Infinity;
 }
+
+let B = [];
+C = [];
+for (let i = 0; i <= 1000; i++) {
+  let b = Math.floor(Math.random() * arr.length);
+  if (!B.includes(b) && B.length < arr.length) B.push(b);
+}
+for (let i = 0; i < B.length; i++) {
+  C[i] = arr[B[i]];
+}
+return C;

@@ -143,7 +143,8 @@ function removeDuplicate(arr) {
  */
 function secondLargest(arr) {
   arr.sort((a, b) => a - b);
-  return arr[arr.length - 2];
+  B = arr.slice(arr.length - 2, arr.length - 1);
+  return B;
 }
 console.log(secondLargest(arr2));
 
@@ -158,4 +159,3 @@ function shuffle(arr) {
   let C = arr.sort(() => Math.random() - 0.5);
   return C;
 }
-console.log(shuffle(arr1));

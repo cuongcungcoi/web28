@@ -12,8 +12,6 @@ function currentDate() {
 
   return date + "/" + month + "/" + d.getFullYear();
 }
-console.log(currentDate());
-
 /**
  * Trả về chuỗi đại diện cho thời gian hiện tại
  *
@@ -29,8 +27,6 @@ function currentTime() {
 
   return hours + ":" + minute + ":" + second;
 }
-console.log(currentTime());
-
 /**
  * Tìm thứ trong tuần tương ứng với ngày hiện tại
  *
@@ -44,7 +40,6 @@ function todayWeekday() {
   index = d.getDay();
   return A[index];
 }
-console.log(todayWeekday());
 
 /**
  * Tìm ngày cuối cùng của tháng

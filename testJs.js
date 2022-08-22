@@ -235,7 +235,28 @@ function listWith(arr) {
 //C1
 let t = new Date();
 function time(t, x) {
+  t.setSeconds(t.getSeconds() + x);
   hours = t.getHours() < 10 ? "0" + t.getHours() : t.getHours();
   minute = t.getMinutes() < 10 ? "0" + t.getMinutes() : t.getMinutes();
-  second = t.getSeconds() + x;
+  second = t.getSeconds() < 10 ? "0" + t.getSeconds() : t.getSeconds();
+  return hours + ":" + minute + ":" + second;
 }
+
+//C2
+function howLong(x, y, h) {
+  for (let i = 1, j = 1; i++; j++) {
+    if (x * i - y * j - h >= 0) {
+      console.log(i, j);
+      break;
+    }
+  }
+}
+console.log(howLong(3, 1, 3));
+//C3
+function minNumber(n) {
+  A = Array.from(String(n), Number);
+  A.sort((a, b) => a - b);
+  A = A.join("");
+  return parseInt(A);
+}
+console.log(minNumber(17345943));

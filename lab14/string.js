@@ -57,7 +57,6 @@ function countVowel(str) {
   }
   return i;
 }
-
 /**
  * Tạo một mã màu ngẫu nhiên (hệ màu HEX)
  *
@@ -67,7 +66,10 @@ function randomColor() {
   b = Math.floor(Math.random() * 16 ** 6);
   return "#" + b.toString(16);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1612e0be7be1cec547a9c94b57affa9ed9ab88f0
 /**
  * Đảo ngược thứ tự các từ trong chuỗi
  *
@@ -83,7 +85,10 @@ function reverseWords(str) {
   str = str.join(" ");
   return str;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1612e0be7be1cec547a9c94b57affa9ed9ab88f0
 /**
  * Tạo chuỗi URL (viết thường, các từ được nối với nhau bằng dấu -)
  *
@@ -101,4 +106,7 @@ function parameterize(str) {
 
   return str.join("-");
 }
+<<<<<<< HEAD
 console.log(Math.prototype);
+=======
+>>>>>>> 1612e0be7be1cec547a9c94b57affa9ed9ab88f0

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="section section1">
+      <div class="container">
+        <div class="tipArea">
+          <div class="header">Tip Calculator</div>
+          <div class="form-body">
+            <form action="">
+              <label for="bill">Bill Amount</label>
+              <div class="bill-amount">
+                <div class="icon">💵</div>
+                <input type="text" name="bill" id="bill" />
+              </div>
+
+              <label for="guest">Number of guest</label>
+              <div class="guest">
+                <div class="icon">👨‍👨‍👦</div>
+                <input type="text" name="guest" id="guest" />
+              </div>
+
+              <div style="display: flex; flex-direction: column">
+                <label for="quanlity">Service Quanlity</label>
+                <select name="quanlity" id="quanlity">
+                  <option value="0.3">Outstanding</option>
+                  <option value="0.2">Good</option>
+                  <option value="0.15">It's OK</option>
+                  <option value="0.1">Bad</option>
+                  <option value="0.05">Terrible</option>
+                </select>
+              </div>
+              <div class="submit-area">
+                <div class="total">
+                  Tip <span class="tip">0</span>$ each person
+                </div>
+                <button type="submit">Calculator</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

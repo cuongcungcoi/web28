@@ -260,3 +260,7 @@ function minNumber(n) {
   return parseInt(A);
 }
 console.log(minNumber(17345943));
+
+for (i = 5, j = 7; i, j >= 0; i--, j--) {
+  console.log(i, j);
+}

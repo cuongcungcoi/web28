@@ -1,6 +1,14 @@
-let arr = [4, 15, 3, 2, 4, 5, 90, 7, 9, 9, 65, 24, 21];
-b = arr.reduce(function (S, value) {
-  S *= value;
-  return S;
-});
-console.log(b);
+let country = "chinese";
+let continent = "Asia";
+let population = 10;
+let isIsland = false;
+let language = "";
+let description = `${country} is Europe, and its ${population} million people speak ${language}`;
+console.log(typeof country);
+console.log(typeof continent);
+console.log(typeof population);
+console.log(typeof language);
+
+// let numNeighbours = parseInt(
+//   prompt("How many neighbour countries does your country have?")
+// );

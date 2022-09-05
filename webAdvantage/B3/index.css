@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: rgb(189, 186, 186);
+}
+.header {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 29px;
+}
+.tipArea {
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.bill-amount,
+.guest {
+  display: flex;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+label {
+  padding-bottom: 5px;
+}
+.icon {
+  background-color: rgb(226, 225, 225);
+  width: 5%;
+  text-align: center;
+}
+.submit-area {
+  text-align: center;
+  margin-top: 20px;
+}
+.total {
+  margin-bottom: 5px;
+}
+#guest,
+#bill {
+  width: 95%;
+  height: 25px;
+}

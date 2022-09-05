@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .row {
+        display: flex;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .form-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 226px;
+        background-color: #ebe1e1;
+        padding: 10px;
+      }
+      .cell {
+        width: 30px;
+        height: 30px;
+        border-top: 1px solid grey;
+        border-left: 1px solid grey;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .cell:last-child {
+        border-right: 1px solid grey;
+      }
+
+      .row:last-child .cell {
+        border-bottom: 1px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="form-area">
+        Số dòng: <input type="text" id="row" />
+        <br />
+        Số cột: <input type="text" id="column" />
+        <br />
+        Người đi trước: X hoặc O
+        <input type="text" id="next" />
+        <br />
+        <button type="submit">Tạo Bảng</button>
+        <input type="button" value="Reset" onclick="return reSet()" />
+      </div>
+    </form>
+
+    <br />
+
+    <div class="container"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

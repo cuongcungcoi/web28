@@ -38,10 +38,13 @@ form.onsubmit = function (e) {
   play();
 };
 
-const reSet = () => (container.innerHTML = "");
+const reSet = () => {
+  container.innerHTML = "";
+  row.value = "";
+  column.value = "";
+};
 const play = () => {
   let next = document.getElementById("next").value.toUpperCase();
-  console.log(next);
   let cells = document.querySelectorAll(".cell");
   let winner = null;
   let table = document.querySelector(".broad");

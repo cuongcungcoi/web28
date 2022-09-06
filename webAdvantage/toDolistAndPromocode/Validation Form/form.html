@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="" class="form" id="form-1" method="post">
+      <h3 class="heading">Đăng ký thành viên</h3>
+      <span class="description">Tham gia câu lạc bộ mùa hè</span>
+      <div class="spacer"></div>
+      <div class="form-item">
+        <label for="fullname">Tên đầy đủ</label>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          placeholder="VD: Hoàng Văn Cường"
+        />
+        <div class="message"></div>
+      </div>
+
+      <div class="form-item">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="VD: abcd@gmail.com"
+        />
+        <div class="message"></div>
+      </div>
+
+      <div class="form-item">
+        <label for="password">Mật khẩu</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Mật khẩu"
+        />
+        <div class="message"></div>
+      </div>
+
+      <div class="form-item">
+        <label for="confirm-password">Nhập lại mật khẩu</label>
+        <input
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Nhập lại mật khẩu"
+        />
+        <div class="message"></div>
+      </div>
+
+      <button class="submit-form" type="submit">Đăng ký</button>
+    </form>
+    <script src="form.js"></script>
+    <script>
+      Validator({
+        form: "#form-1",
+        errorSelector: ".message",
+        rules: [
+          Validator.isRequired("#fullname", "Vui lòng nhập tên của bạn đầy đủ"),
+          Validator.isRequired("#email"),
+          Validator.isEmail("#email"),
+          Validator.minLength("#password", 8),
+          Validator.isRequired("#confirm-password"),
+          Validator.isConfirm(
+            "#confirm-password",
+            function () {
+              return document.querySelector("#form-1 #password").value;
+            },
+            "Mật khẩu nhập vào không chính xác"
+          ),
+        ],
+      });
+    </script>
+  </body>
+</html>

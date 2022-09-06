@@ -6,21 +6,22 @@ function randomId() {
 let products = [
   {
     id: randomId(),
-    name: "Áo kiểu nữ cam đất phối cổ trắng dập ly",
+    name: "TISSOT PRX POWERMATIC 80",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, velit.",
     price: 250000,
-    image: "c?width=550&height=550",
+    image:
+      "https://www.tissotwatches.com/media/catalog/product/T/1/T137.407.16.041.00_R_1.png?im=Resize=(387,387)",
     count: 1,
   },
   {
     id: randomId(),
-    name: "Áo trắng bèo lé đen tay loe dễ thương",
+    name: "TISSOT T-TOUCH CONNECT SOLAR",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, velit.",
     price: 350000,
     image:
-      "https://image.yes24.vn/Upload/ProductImage/anhduong201605/1914666_L.jpg?width=550&height=550",
+      "https://www.tissotwatches.com/media/catalog/product/T/1/T137.407.11.041.00_R_1.png?im=Resize=(387,387)",
     count: 1,
   },
 ];
@@ -46,25 +47,55 @@ function changeTotalProduct(id, e) {
   }
   renderUI(products);
 }
+// Danh sách promotion code (Mã giảm giá)
+let promotionCode = {
+  A: 10,
+  B: 20,
+  C: 30,
+  D: 40,
+};
+
+// Kiểm tra mã giảm giá
+let inputPromotion = document.querySelector("#promo-code");
+
+function checkPromotion() {
+  let value = inputPromotion.value;
+  if (promotionCode[value]) {
+    return promotionCode[value];
+  }
+  return 0;
+}
+
 // Truy cập vào các thành phần
 let subTotalEl = document.querySelector(".subtotal span");
 let vatEl = document.querySelector(".vat span");
 let totalEle = document.querySelector(".total span");
+let discount = document.querySelector(".discount");
+let discountEle = document.querySelector(".discount span");
 
 // Cập nhật tổng tiền
 function updateTotalMoney(arr) {
   // Tính tổng tiền cart
   let totalMoney = 0;
-
+  let discountMoney = 0;
   for (let i = 0; i < arr.length; i++) {
     const p = arr[i];
     totalMoney += p.count * p.price;
+  }
+  let data = checkPromotion();
+
+  if (data) {
+    discountMoney = (totalMoney * data) / 100;
+    discount.classList.remove("hide");
+  } else {
+    discount.classList.add("hide");
   }
 
   // Cập nhật tiền lên trên giao diện
   subTotalEl.innerText = convertMoney(totalMoney);
   vatEl.innerText = convertMoney(totalMoney * 0.05);
-  totalEle.innerText = convertMoney(totalMoney * 1.05);
+  discountEle.innerText = convertMoney(discountMoney);
+  totalEle.innerText = convertMoney(totalMoney * 1.05 - discountMoney);
 }
 
 function renderUI(arr) {
@@ -130,3 +161,9 @@ function updateTotalItem(arr) {
   }
   return total;
 }
+
+let btnPromotion = document.querySelector(".promotion button");
+
+btnPromotion.addEventListener("click", function () {
+  updateTotalMoney(products);
+});

@@ -9,7 +9,6 @@ function Validator(options) {
     let errorMessage;
     //Lấy ra mảng chứa các rule
     let rules = selectorRules[rule.selector];
-
     //Lặp qua từng rule và kiểm tra
     for (let i = 0; i <= rules.length; ++i) {
       errorMessage = rules[i](inputElement.value);
@@ -28,6 +27,14 @@ function Validator(options) {
   let formElement = document.querySelector(options.form);
 
   if (formElement) {
+    formElement.onsubmit = (e) => {
+      e.preventDefault();
+
+      options.rules.forEach((rule) => {
+        let inputElement = formElement.querySelector(rule.selector);
+        validate(inputElement, rule);
+      });
+    };
     options.rules.forEach((rule) => {
       //Lưu lại rules cho các input
       if (Array.isArray(selectorRules[rule.selector])) {
@@ -52,7 +59,6 @@ function Validator(options) {
       }
     });
   }
-  console.log(selectorRules);
 }
 Validator.isRequired = function (selector, message) {
   return {
@@ -103,9 +109,4 @@ Validator.isConfirm = function (selector, getValuePassWord, message) {
         : message || "Giá trị nhập vào không chính xác";
     },
   };
-};
-
-let submit = document.querySelector(".submit-form");
-submit.onclick = function (e) {
-  e.preventDefault();
 };

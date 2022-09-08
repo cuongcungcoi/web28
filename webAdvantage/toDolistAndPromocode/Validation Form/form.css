@@ -30,6 +30,10 @@ input {
   border-color: rgb(12, 179, 179);
   padding-left: 10px;
 }
+.message {
+  color: rgb(216, 13, 13);
+  margin-top: 5px;
+}
 .submit-form {
   width: 70px;
   height: 30px;

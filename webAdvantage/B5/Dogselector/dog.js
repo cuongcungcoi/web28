@@ -6,25 +6,20 @@ const IMG = "https://dog.ceo/api/breed/hound/afghan/images";
 let dogArea = document.getElementById("dog");
 let subDogArea = document.querySelector(".list-sub-dog");
 let subDogList = document.querySelector(".dog");
-// async function getDog() {
-//   try {
-//     let data = await axios.get(DOG_URL);
+async function getDog() {
+  try {
+    let data = await axios.get(DOG_URL);
 
-//     const listDog = Object.keys(data.data.message);
-//     renderDog(listDog);
-//     const subDog = data.data.message;
-//     let index = dogArea.value;
-//     console.log(index);
-//     subDogList.addEventListener("click", () => renderSubDog(subDog[index]));
-//   } catch (e) {
-//     console.log(e);
-//   }
-// }
-subDogList.onclick = () => {
-  for (let i = 1; i < 10; i++) {
-    console.log(i);
+    const listDog = Object.keys(data.data.message);
+    renderDog(listDog);
+    const subDog = data.data.message;
+    let index = dogArea.value;
+    console.log(index);
+    subDogList.addEventListener("click", () => renderSubDog(subDog[index]));
+  } catch (e) {
+    console.log(e);
   }
-};
+}
 
 function renderDog(arr) {
   dogArea.innerHTML = arr

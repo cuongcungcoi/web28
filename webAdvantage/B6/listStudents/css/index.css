@@ -1,0 +1,61 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  display: flex;
+  color: rgb(11, 138, 212);
+}
+.header-table {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.add-student {
+  background-color: green;
+  color: white;
+  border: none;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+.add-area {
+  padding-left: 2px;
+  margin-left: 441px;
+}
+table {
+  margin-top: 3px;
+  box-shadow: 1px 1px 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  width: 200px;
+}
+tr {
+  height: 30px;
+}
+tr:nth-child(even) {
+  background-color: #f1f0f0;
+}
+tr:hover {
+  background-color: rgb(211, 203, 200);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.option {
+  display: flex;
+}
+.edit {
+  color: #048eeb;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+}

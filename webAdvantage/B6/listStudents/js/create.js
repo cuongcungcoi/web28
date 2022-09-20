@@ -63,7 +63,7 @@ $(".form-item-4 input").attr({
   id: "phone",
 });
 $(".form-item-4").append($('<div class="message"></div>'));
-$("body").append($("<div class ='option'></div>"));
+$("form").append($("<div class ='option'></div>"));
 $(".option").append("<div/>");
 $(".option div").attr({
   class: "back",
@@ -91,11 +91,12 @@ $(".back").css({
   width: "80px",
   height: "30px",
   borderRadius: "3px",
+  cursor: "pointer",
 });
 $(".option").append($('<div class="save"></div>'));
 $(".save").append(
   $(
-    '<button><ion-icon name="save-outline"></ion-icon><span>Lưu</span></button>'
+    '<button type="submit"><ion-icon name="save-outline"></ion-icon><span>Lưu</span></button>'
   )
 );
 $(".save button").css({
@@ -108,6 +109,7 @@ $(".save button").css({
   borderRadius: "3px",
   justifyContent: "center",
   border: "none",
+  cursor: "pointer",
 });
 $(".option").css({
   display: "flex",
@@ -248,21 +250,21 @@ Validator.isEmail = function (selector, message) {
   };
 };
 
-Validator.checkDob = function (selector) {
-  return {
-    selector: selector,
-    test: function (value) {
-      return typeof value === "number"
-        ? undefined
-        : `Hãy nhập ngày sinh của bạn`;
-    },
-  };
-};
+// Validator.checkDob = function (selector) {
+//   return {
+//     selector: selector,
+//     test: function (value) {
+//       return typeof value === "number"
+//         ? undefined
+//         : `Hãy nhập ngày sinh của bạn`;
+//     },
+//   };
+// };
 Validator.checkPhone = function (selector, message) {
   return {
     selector: selector,
     test: function (value) {
-      return typeof value === "number"
+      return value.length == 10
         ? undefined
         : message || `Vui lòng nhập trường này`;
     },

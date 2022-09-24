@@ -371,8 +371,6 @@ body {
     width: 400px;
     height: 408px;
   }
-  .img-sec3-list img {
-  }
   .img-sec4-list {
     flex-direction: row;
   }
@@ -388,7 +386,6 @@ body {
     font-size: 36px;
     line-height: 49px;
   }
-
   .section-5-meta {
     width: 521px;
     height: 76px;
@@ -412,5 +409,6 @@ body {
     margin-right: 96px;
   }
   .footer {
+    margin-top: 124px;
   }
 }
